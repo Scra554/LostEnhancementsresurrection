@@ -1053,4 +1053,7 @@ SetTab:Button("Unload lostenhancementsresurrection Resummon", function()
     print("[lostenhancementsresurrection Resummon] Unloaded cleanly.")
 end)
 
-print("[lostenhancementsresurrection Resummon] Loaded! RShift = toggle UI")
+print("[lostenhancementsresurrection Resummon] Loaded! RShift = toggle 
+task.wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sodiumhub/Ira/refs/heads/main/resummon"))()
+    
